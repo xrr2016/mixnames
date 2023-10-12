@@ -10,7 +10,6 @@ const mixnames = (...args: Array<any>): string => {
     } else if (Array.isArray(arg)) {
       if (arg.length) {
         const res = mixnames(...arg)
-
         if (res) {
           classes.push(res)
         }
