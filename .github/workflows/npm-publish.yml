@@ -16,6 +16,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
       - run: npm i
       - run: npm test
 
@@ -27,6 +28,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
           registry-url: https://registry.npmjs.org/
       - run: npm i
       - run: npm publish
