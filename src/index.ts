@@ -1,5 +1,5 @@
-const mixnames = (...args: Array<any>): string => {
-  const classes: Array<string> = []
+const mixnames = (...args: (string | number | Object | Array<any>)[]): string => {
+  const classes: Array<any> = []
 
   for (const arg of args) {
     if (!arg) continue;
