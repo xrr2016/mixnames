@@ -15,9 +15,9 @@ npm install mixnames
 ## Usage
 
 ```js
-const mixnames = require('mixnames');
+import mx from 'mixnames';
 
-mixnames('foo', 'bar'); // => 'foo bar'
+mx('foo', 'bar'); // => 'foo bar'
 ```
 
 ## Test
