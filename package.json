@@ -1,6 +1,6 @@
 {
   "name": "mixnames",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "mixnames",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
