@@ -35,11 +35,8 @@
     "father": "^4.3.5",
     "happy-dom": "^12.9.1",
     "jsdom": "^22.1.0",
+    "react": "^18.2.0",
     "react-test-renderer": "^18.2.0",
     "vitest": "^0.34.6"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   }
 }
