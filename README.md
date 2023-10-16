@@ -5,18 +5,22 @@
 
 ## Install
 
-```bash
-$ pnpm install
+```sh
+$ pnpm add mixnames
+```
+## Usage
+
+```js
+const mixnames = require('mixnames');
+
+mixnames('foo', 'bar'); // => 'foo bar'
 ```
 
-```bash
-$ npm run dev
-$ npm run build
-```
+## Test
 
-## Options
+[test](./test/)
 
-TODO
+![result](test.jpg)
 
 ## LICENSE
 

@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`expect same classname 1`] = `
+<button
+  className="foo bar baz"
+>
+  Confirm
+</button>
+`;
+
+exports[`expect same classname 2`] = `
+<button
+  className="a f"
+>
+  Confirm
+</button>
+`;
+
+exports[`expect same classname 3`] = `
+<button
+  className="nonEmptyString whitespace function emptyObject nonEmptyObject emptyList nonEmptyList greaterZero"
+>
+  Confirm
+</button>
+`;
