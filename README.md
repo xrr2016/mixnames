@@ -6,7 +6,11 @@
 ## Install
 
 ```sh
-$ pnpm add mixnames
+pnpm add mixnames
+
+yarn add mixnames
+
+npm install mixnames
 ```
 ## Usage
 
@@ -20,7 +24,7 @@ mixnames('foo', 'bar'); // => 'foo bar'
 
 [test](./test/)
 
-![result](test.jpg)
+![result](https://github.com/xrr2016/mixnames/blob/main/test.jpg?raw=true)
 
 ## LICENSE
 
