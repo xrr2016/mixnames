@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import mx from '../dist/esm'
+import mx from '../src/index'
 
 function toJson(component: renderer.ReactTestRenderer) {
   const result = component.toJSON()
